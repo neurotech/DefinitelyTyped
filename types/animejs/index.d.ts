@@ -96,6 +96,7 @@ declare namespace anime {
     interface AnimeInstance extends AnimeCallBack {
         play(): void;
         pause(): void;
+        reset(): void;
         restart(): void;
         reverse(): void;
         seek(time: number): void;
